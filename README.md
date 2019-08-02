@@ -1,8 +1,8 @@
-# EasyIPCamera #
+# EasyRTSPServer（原EasyIPCamera） #
 
-EasyIPCamera是由[**EasyDarwin开源团队**](http://www.easydarwin.org "EasyDarwin")开发的一套非常稳定、易用、支持多种平台（包括Windows/Linux 32&64，Android，ARM hisiv100/hisiv200/hisiv300/hisiv400/hisiv500/hisiv600等平台）的RTSP Server组件，适用于IPCamera、NVR、编码器、安卓监控设备等软硬件产品，接口调用非常简单成熟，调用者无需关注RTSP Server中关于客户端监听接入、音视频多路复用、RTSP具体流程、RTP打包与发送等相关问题，支持多种音视频格式，再也不用像调用live555 RTSPServer那样处理整个RTSP OPTIONS/DESCRIBE/SETUP/PLAY/RTP/RTCP的复杂流程和担心内存释放的问题了！EasyIPCamera非常适合于安防领域、教育领域、互联网直播等领域；
+EasyRTSPServer（原EasyIPCamera）是由[**TSINGSEE青犀开放平台**](http://open.tsingsee.com "TSINGSEE")开发的一套非常稳定、易用、支持多种平台（包括Windows/Linux 32&64，Android，ARM hisiv100/hisiv200/hisiv300/hisiv400/hisiv500/hisiv600等平台）的RTSP Server组件，适用于IPCamera、NVR、编码器、安卓监控设备等软硬件产品，接口调用非常简单成熟，调用者无需关注RTSP Server中关于客户端监听接入、音视频多路复用、RTSP具体流程、RTP打包与发送等相关问题，支持多种音视频格式，再也不用像调用live555 RTSPServer那样处理整个RTSP OPTIONS/DESCRIBE/SETUP/PLAY/RTP/RTCP的复杂流程和担心内存释放的问题了！EasyIPCamera非常适合于安防领域、教育领域、互联网直播等领域；
 
-BTW：EasyIPCamera非常适合在海思系列芯片上运行，性能以及稳定性都非常优秀，并发方面，稳定保持在20路1080P并发：
+BTW：EasyRTSPServer非常适合在海思系列芯片上运行，性能以及稳定性都非常优秀，并发方面，稳定保持在20路1080P并发：
 
  - TCP/UDP 方式分别连接20路下，1080P 4M 定码率，音频格式G711（64K）G726（16K 24K 32K 40K）AAC(64K 96K 128K)都没问题；
  
@@ -21,7 +21,7 @@ BTW：EasyIPCamera非常适合在海思系列芯片上运行，性能以及稳�
 
 ## 调用示例 ##
 
-- **EasyIPCamera**：在不同的调用平台上，我们实现了不同的调用示例；
+- **EasyRTSPServer**：在不同的调用平台上，我们实现了不同的调用示例；
 	1. Android：采集Android摄像头（支持前/后摄像头切换）和麦克风声音作为数据源的安卓RTSPServer；
 	2. EasyIPCamera_Win：Windows采集摄像头/屏幕桌面/麦克风的音视频作为数据源的RTSPServer；
 	3. EasyIPCamera_RTSP：以其他IPC硬件（海康、大华、雄迈）提供的RTSP流作为EasyIPCamera的数据源，对外提供RTSPServer功能；
@@ -111,13 +111,25 @@ EASY\_SDK\_AUDIO\_FRAME\_FLAG数据可支持多种音频格式：
 
 - QQ交流群：**692496281**
 
-- EasyIPCamera属于EasyDarwin开源团队的免费产品，大家免费使用，同时，EasyDarwin开源团队也能提供相应的收费技术咨询、技术服务和技术定制，谢谢大家支持！
 
+## 更多流媒体音视频资源
 
-## 获取更多信息 ##
+EasyDarwin开源流媒体服务器：<a href="http://www.easydarwin.org" target="_blank" title="EasyDarwin开源流媒体服务器">www.EasyDarwin.org</a>
 
-**EasyDarwin**开源流媒体服务器：[www.EasyDarwin.org](http://www.easydarwin.org)
+EasyDSS高性能互联网直播服务：<a href="http://www.easydss.com" target="_blank" title="EasyDSS高性能互联网直播服务">www.EasyDSS.com</a>
 
-Copyright &copy; EasyDarwin Team 2012-2019
+EasyNVR安防视频可视化服务：<a href="http://www.easynvr.com" target="_blank" title="EasyNVR安防视频可视化服务">www.EasyNVR.com</a>
 
-![EasyDarwin](http://www.easydarwin.org/skin/easydarwin/images/wx_qrcode.jpg)
+EasyNVS视频综合管理平台：<a href="http://www.easynvs.com" target="_blank" title="EasyNVS视频综合管理平台">www.EasyNVS.com</a>
+
+EasyNTS云组网：<a href="http://www.easynts.com" target="_blank" title="EasyNTS云组网">www.EasyNTS.com</a>
+
+EasyGBS国标GB/T28181服务器：<a href="http://www.easygbs.com" target="_blank" title="EasyGBS国标GB/T28181视频服务器">www.EasyGBS.com</a>
+
+EasyRTS应急指挥平台：<a href="http://www.easyrts.com" target="_blank" title="EasyRTS应急指挥平台">www.EasyRTS.com</a>
+
+TSINGSEE青犀开放平台：<a href="http://open.tsingsee.com" target="_blank" title="TSINGSEE青犀开放平台">open.TSINGSEE.com</a>
+
+Copyright © <a href="http://www.tsingsee.com" target="_blank" title="青犀TSINGSEE">www.TSINGSEE.com</a> Team 2012-2019
+
+![青犀TSINGSEE](http://www.easydarwin.org/public/images/tsingsee_qrcode_160.jpg)
