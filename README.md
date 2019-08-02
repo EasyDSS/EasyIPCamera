@@ -1,6 +1,6 @@
 # EasyRTSPServer（原EasyIPCamera） #
 
-EasyRTSPServer（原EasyIPCamera）是由[**TSINGSEE青犀开放平台**](http://open.tsingsee.com "TSINGSEE")开发的一套非常稳定、易用、支持多种平台（包括Windows/Linux 32&64，Android，ARM hisiv100/hisiv200/hisiv300/hisiv400/hisiv500/hisiv600等平台）的RTSP Server组件，适用于IPCamera、NVR、编码器、安卓监控设备等软硬件产品，接口调用非常简单成熟，调用者无需关注RTSP Server中关于客户端监听接入、音视频多路复用、RTSP具体流程、RTP打包与发送等相关问题，支持多种音视频格式，再也不用像调用live555 RTSPServer那样处理整个RTSP OPTIONS/DESCRIBE/SETUP/PLAY/RTP/RTCP的复杂流程和担心内存释放的问题了！EasyIPCamera非常适合于安防领域、教育领域、互联网直播等领域；
+EasyRTSPServer（原EasyIPCamera）是由[**TSINGSEE青犀开放平台**](http://open.tsingsee.com "TSINGSEE")开发的一套非常稳定、易用、支持多种平台（包括Windows/Linux 32&64，Android，ARM hisiv100/hisiv200/hisiv300/hisiv400/hisiv500/hisiv600等平台）的RTSP Server组件，适用于IPCamera、NVR、编码器、安卓监控设备等软硬件产品，接口调用非常简单成熟，调用者无需关注RTSP Server中关于客户端监听接入、音视频多路复用、RTSP具体流程、RTP打包与发送等相关问题，支持多种音视频格式，再也不用像调用live555 RTSPServer那样处理整个RTSP OPTIONS/DESCRIBE/SETUP/PLAY/RTP/RTCP的复杂流程和担心内存释放的问题了！EasyRTSPServer非常适合于安防领域、教育领域、互联网直播等领域；
 
 BTW：EasyRTSPServer非常适合在海思系列芯片上运行，性能以及稳定性都非常优秀，并发方面，稳定保持在20路1080P并发：
 
